@@ -7,7 +7,7 @@ Tracking my progress through the OverTheWire Bandit wargame while building hands
 **Completed: 0 / 34 level transitions**
 
 - [x] Level 0 → Level 1
-- [ ] Level 1 → Level 2
+- [x] Level 1 → Level 2
 - [ ] Level 2 → Level 3
 - [ ] Level 3 → Level 4
 - [ ] Level 4 → Level 5
