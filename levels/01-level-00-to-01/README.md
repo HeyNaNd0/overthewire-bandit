@@ -1,18 +1,33 @@
-# Bandit Level 1
+# Bandit Level 0 → Level 1
 
 ## Objective
-Find the password needed to access the next level.
+Read the `readme` file in bandit0's home directory to obtain the password for bandit1.
 
 ## Commands Used
-Add the commands I used here.
+Run in the remote bandit0 shell:
+```bash
+pwd
+ls
+cat readme
+exit
+```
+Then connect from the local terminal and enter the password found in `readme`:
+```bash
+ssh -p 2220 bandit1@bandit.labs.overthewire.org
+```
 
 ## What I Learned
-- [x] Locate the required file
-- [x] Read its contents using Linux commands
-- [x] Find the next level's password
+- `pwd` prints the current directory.
+- `ls` lists visible files and directories.
+- `cat` displays a text file's contents.
+- Each next level uses a new account and the password discovered in the previous challenge.
 
 ## Status
 - [x] Completed
 
-## Security
-No passwords or credentials are published.
+## Notes
+Save the solution method as well as the password: Bandit passwords can change.
+No discovered passwords are included here.
+
+## Reference
+[Official Level 0 → 1 instructions](https://overthewire.org/wargames/bandit/bandit1.html)
