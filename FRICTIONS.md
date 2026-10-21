@@ -45,6 +45,26 @@ to a different machine.
 
 ---
 
+## Friction #002: Repeated SSH Logins Between Lessons
+
+**Challenge:** Moving between Bandit levels
+**Category:** SSH / Learning Workflow
+**Status:** Open question
+
+### What Feels Frustrating
+
+Having to close an SSH session and authenticate with a different account for each lesson feels repetitive and interrupts my learning momentum. I would prefer a workflow that lets me progress through the lessons within one continuous session.
+
+### What I Understand
+
+The levels already run on the same server. The repeated logins involve switching Linux user accounts rather than connecting to a new device or node.
+
+### Question to Explore
+
+Why does each level require a separate user account and SSH login? What learning or access-control benefits does this structure provide compared with completing all lessons under one account in a continuous session?
+
+---
+
 ## Future Frictions
 
 New challenges, mistakes, and lessons learned will be documented here
