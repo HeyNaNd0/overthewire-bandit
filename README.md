@@ -13,7 +13,7 @@ Tracking my progress through the OverTheWire Bandit wargame while building hands
 - [X] Level 4 → Level 5
 - [X] Level 5 → Level 6
 - [X] Level 6 → Level 7
-- [ ] Level 7 → Level 8
+- [x] Level 7 → Level 8
 - [ ] Level 8 → Level 9
 - [ ] Level 9 → Level 10
 - [ ] Level 10 → Level 11
