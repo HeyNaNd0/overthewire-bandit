@@ -1,39 +1,23 @@
-![My Linux Learning Journey](assets/journey-header.svg)
+![Linux, one level deeper. A field notebook for systems, commands, and discoveries.](assets/journey-header.svg)
 
-**[The journey](README.md) &nbsp; / &nbsp; [Learning journal](FRICTIONS.md) &nbsp; / &nbsp; [Development goals](GOALS.md)**
+<div align="center">
 
-# My Linux Learning Journey
+**[Featured lessons](#featured-lessons) &nbsp; / &nbsp; [Progress](#progress) &nbsp; / &nbsp; [Journal](FRICTIONS.md) &nbsp; / &nbsp; [Goals](GOALS.md)**
 
+</div>
 
----
+# My Linux Learning Portfolio
 
-## The journey
-
-I am working through the OverTheWire Bandit wargame to build practical Linux, networking, and security skills. Each challenge gives me a problem to investigate, a reason to explore unfamiliar commands, and something useful to document for the next time I encounter it.
-
-This repository is my record of that process: the levels I complete, the concepts I learn, and the moments where the tools or workflow make learning harder.
-
-> **💡 The approach**
->
-> Understand the problem → Discover the tool → Read the documentation → Test → Verify.
-
-## Explore the notebook
-
-| Start here | What you will find |
-| --- | --- |
-| [📂 Level notes](levels/) | Individual writeups covering commands, concepts, and lessons learned |
-| [⚡ Learning frictions](FRICTIONS.md) | A wiki-style journal of questions, obstacles, and discoveries |
-| [🎯 OverTheWire Bandit](https://overthewire.org/wargames/bandit/) | The challenges behind this learning journey |
-
----
+I'm learning Linux by working through **OverTheWire Bandit**, investigating unfamiliar tools, and documenting what I discover. This is my working notebook for a longer journey into **systems administration, infrastructure automation, and platform engineering**.
 
 ## Progress
 
-**11 of 34 level transitions completed · 32%**
+![11 of 34 transitions completed, 32 percent. Next challenge: Level 11 to Level 12.](assets/progress.svg)
 
-**Next challenge:** Level 11 → Level 12
+<details>
+<summary><strong>Explore the full level checklist · 11 completed / 23 remaining</strong></summary>
 
-### Foundations · Levels 0–11
+### Foundations· Levels 0–11
 
 - [x] Level 0 → Level 1
 - [x] Level 1 → Level 2
@@ -76,9 +60,79 @@ This repository is my record of that process: the levels I complete, the concept
 - [ ] Level 32 → Level 33
 - [ ] Level 33 → Level 34
 
-[↑ Back to the top](#my-linux-learning-journey)
+</details>
 
----
+## Featured lessons
+
+*A few discoveries that changed how I approach the terminal.*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**01 / SEARCH WITH INTENT**
+
+### Find the file, wherever it lives
+
+Combine ownership, group, and size filters. Understand permission errors and keep useful output visible with stream redirection.
+
+`find` · `stderr` · `/dev/null`
+
+[Read Level 6 → Level 7 →](levels/07-level-06-to-07/README.md)
+
+</td>
+<td width="50%" valign="top">
+
+**02 / MAKE TEXT WORK FOR YOU**
+
+### Turn repeated lines into an answer
+
+Group identical lines, count occurrences, and discover how small commands work together through pipes.
+
+`sort` · `uniq` · pipes
+
+[Read Level 8 → Level 9 →](levels/09-level-08-to-09/README.md)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**03 / INVESTIGATE THE UNFAMILIAR**
+
+### Discover text inside binary data
+
+Identify a file, extract printable strings, and filter the results. Learn how to discover a tool before knowing its name.
+
+`file` · `strings` · `apropos`
+
+[Read Level 9 → Level 10 →](levels/10-level-09-to-10/README.md)
+
+</td>
+<td width="50%" valign="top">
+
+**04 / UNDERSTAND THE REPRESENTATION**
+
+### Decode data with confidence
+
+Explore Base64, read command syntax, and understand where input comes from. Encoding changes representation; it does not provide confidentiality.
+
+`base64` · `stdin` · manual pages
+
+[Read Level 10 → Level 11 →](levels/11-level-10-to-11/README.md)
+
+</td>
+</tr>
+</table>
+
+**[Browse all level notes →](levels/)**
+
+## Behind the progress
+
+<a href="FRICTIONS.md"><img src="assets/journal-card.svg" alt="Learning journal — explore the obstacles behind the progress" width="49%"></a>
+<a href="GOALS.md"><img src="assets/goals-card.svg" alt="Development roadmap — RHCSA, RHCE, and CKA goals" width="49%"></a>
+
+The **[learning journal](FRICTIONS.md)** records the questions and interruptions that don't fit neatly into a completed level. The **[development roadmap](GOALS.md)** connects this daily practice to my certification goals and future infrastructure projects.
 
 ## Skills I'm building
 
@@ -91,21 +145,22 @@ This repository is my record of that process: the levels I complete, the concept
 | ⚙️ Automation | Bash scripting and combining Linux utilities |
 | 🌱 Version control | Git, GitHub, and documenting changes |
 
-## Professional development goals
+## How I learn
 
-I'm using OverTheWire Bandit to strengthen my Linux fundamentals as part of my long-term goal of becoming proficient in Linux systems administration, infrastructure automation, and platform engineering.
-
-My certification roadmap includes RHCSA, RHCE, and CKA, supported by hands-on labs and practical infrastructure projects.
-
-[View my professional development roadmap](GOALS.md)
-
-## How I document each level
-
-Level writeups live in the `levels/` directory. They explain the objective, the concepts I explored, the commands I practiced, and the takeaway I want to retain. My [learning journal](FRICTIONS.md) captures the broader questions and recurring difficulties that emerge across lessons.
-
-> **📝 Documentation principle**
+> **Understand → Discover → Read → Test → Verify**
 >
-> Share the learning process while keeping passwords, private keys, and other level credentials out of the repository.
+> Start with the problem. Find a relevant tool. Read its documentation. Try it with purpose. Check that the result meets the requirement.
+
+Each level writeup captures the concepts I explored, commands I practiced, and lessons I want to retain. My goal is to build practical understanding alongside my **RHCSA, RHCE, and CKA** roadmap, supported by hands-on labs and infrastructure projects.
+
+<details>
+<summary><strong>About these writeups</strong></summary>
+
+This repository documents my learning process. Passwords, private keys, and other level credentials are excluded. Completion markers reflect my progress checklist; individual writeups provide further context on what I practiced.
+
+Challenges are provided by [OverTheWire Bandit](https://overthewire.org/wargames/bandit/).
+
+</details>
 
 ---
 
@@ -113,6 +168,6 @@ Level writeups live in the `levels/` directory. They explain the objective, the 
 
 **Built through practice, one level at a time.**
 
-[Explore OverTheWire Bandit](https://overthewire.org/wargames/bandit/) · [Read the learning journal](FRICTIONS.md)
+[Start with Bandit](https://overthewire.org/wargames/bandit/) · [Explore my notes](levels/) · [Follow the roadmap](GOALS.md)
 
 </div>

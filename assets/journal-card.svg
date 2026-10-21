@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="180" viewBox="0 0 580 180" role="img" aria-labelledby="title desc">
+<title id="title">Learning journal</title><desc id="desc">The obstacles behind the progress →</desc>
+<rect width="580" height="180" rx="16" fill="#101c2b"/>
+<path d="M480 -20 L570 70 L480 160 L570 250" fill="none" stroke="#fbbf24" stroke-width="25" opacity="0.1"/>
+<rect x="28" y="30" width="4" height="118" rx="2" fill="#fbbf24"/>
+<text x="50" y="52" fill="#fbbf24" font-family="monospace" font-size="12" letter-spacing="2">OBSERVE / REFLECT</text>
+<text x="50" y="99" fill="#f1f5f9" font-family="sans-serif" font-size="28" font-weight="700">Learning journal</text>
+<text x="50" y="139" fill="#a4b4c7" font-family="sans-serif" font-size="16">The obstacles behind the progress →</text>
+</svg>
